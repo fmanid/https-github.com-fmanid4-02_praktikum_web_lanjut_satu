@@ -25,10 +25,10 @@ Route::get('/', function () {
     echo "Selamat Datang";
 });
 
-Route::get('/about', function (){
+Route::get('/about',function (){
     echo " NIM : 2041723008 </br> Nama : Firman Nugroho";
 });
 
-Route::get('/articles/1', function(){
+Route::get('/articles/1',function(){
     echo "Halaman Artikel 1";
 });
